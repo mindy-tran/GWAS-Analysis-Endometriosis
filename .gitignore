@@ -1,0 +1,28 @@
+cat > .gitignore << EOF
+# Large data files
+*.vcf
+*.vcf.gz
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.gz
+*.zip
+*.tar
+*.tar.gz
+chrpos_to_rsid.txt
+chrpos_key_to_rsid.txt
+uterine_fibroids_with_rsid.tsv
+
+# Log files
+*.log
+wget-log
+
+# Large result files
+*.rds
+*.RData
+*.pkl
+*.pickle
+EOF
